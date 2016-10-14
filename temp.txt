@@ -1,0 +1,132 @@
+05:47:44 INFO  - loading ...
+05:47:44 WARN  - Unknown 'R' class, create references to 'com.zxfnnn020.sucruri.R'
+05:47:44 INFO  - processing ...
+05:47:45 ERROR - Can't fix incorrect switch cases order, method: javax.mail.internet.InternetAddress.parse(java.lang.String, boolean, boolean):javax.mail.internet.InternetAddress[]
+05:47:46 WARN  - Finally extract failed: remBlock pred: B:77:0x0139, [B:73:0x0133, B:115:0x0139], method: javax.mail.Transport.send0(javax.mail.Message, javax.mail.Address[]):void
+05:47:46 WARN  - Unknown top splitter block from list: {B:12:0x002c=Splitter: B:12:0x002c, B:24:0x005e=Splitter: B:24:0x005e}
+05:47:46 ERROR - Failed to process nested try/catch in method: javax.mail.Session.loadAllResources(java.lang.String, java.lang.Class, javax.mail.StreamLoader):void
+05:47:48 ERROR - Block not found by B:22:0x0028, in BRI start: (B:3:?, B:12:?), end: null, list: [(B:3:?, B:12:?)], outs: [(B:18:0x0018, B:13:0x0028)], regMap: {(r0 java.io.PipedOutputStream)=(r1 java.io.PipedOutputStream)}, split: 0, method: javax.activation.DataHandler.1.run():void
+05:47:48 ERROR - Failed to process nested try/catch in method: javax.mail.internet.MailDateFormat.parseDate(char[], java.text.ParsePosition, boolean):java.util.Date
+05:47:48 WARN  - Unknown top splitter block from list: {B:27:0x0030=Splitter: B:27:0x0030, B:38:0x0048=Splitter: B:38:0x0048}
+05:47:49 ERROR - Failed to process nested try/catch in method: com.sun.mail.imap.IMAPStore.getNamespaces():com.sun.mail.imap.protocol.Namespaces
+05:47:49 ERROR - Failed to process nested try/catch in method: com.sun.mail.imap.IMAPStore.isConnected():boolean
+05:47:49 ERROR - Failed to process nested try/catch in method: com.sun.mail.imap.IMAPStore.protocolConnect(java.lang.String, int, java.lang.String, java.lang.String):boolean
+05:47:49 ERROR - Inconsistent code in method: javax.mail.internet.MimeMultipart.parsebm():void
+05:47:49 ERROR - Inconsistent code in method: javax.mail.internet.MimeMultipart.parse():void
+05:47:50 ERROR - JadxOverflowException in pass: RegionMakerVisitor in method: javax.mail.EventQueue.run():void, message: Regions stack size limit reached
+05:47:50 WARN  - Finally extract failed: remBlock pred: B:11:0x0033, [B:10:0x002b, B:9:0x0029], method: com.sun.mail.imap.IMAPFolder.getStatus():com.sun.mail.imap.protocol.Status
+05:47:50 WARN  - Unknown top splitter block from list: {B:20:0x0024=Splitter: B:20:0x0024, B:32:0x0036=Splitter: B:32:0x0036, B:39:0x003f=Splitter: B:39:0x003f}
+05:47:50 WARN  - Unknown top splitter block from list: {B:20:0x0024=Splitter: B:20:0x0024, B:32:0x0036=Splitter: B:32:0x0036, B:39:0x003f=Splitter: B:39:0x003f}
+05:47:51 ERROR - JadxRuntimeException in pass: RegionMakerVisitor in method: com.sun.mail.imap.IMAPFolder.getMessageCount():int
+jadx.core.utils.exceptions.JadxRuntimeException: Exception block dominator not found, method:com.sun.mail.imap.IMAPFolder.getMessageCount():int. bs: [B:5:0x0008, B:36:0x0054]
+	at jadx.core.dex.visitors.regions.ProcessTryCatchRegions.searchTryCatchDominators(ProcessTryCatchRegions.java:86) ~[jadx-core-0.6.1-dev.jar:na]
+	at jadx.core.dex.visitors.regions.ProcessTryCatchRegions.process(ProcessTryCatchRegions.java:45) ~[jadx-core-0.6.1-dev.jar:na]
+	at jadx.core.dex.visitors.regions.RegionMakerVisitor.postProcessRegions(RegionMakerVisitor.java:63) ~[jadx-core-0.6.1-dev.jar:na]
+	at jadx.core.dex.visitors.regions.RegionMakerVisitor.visit(RegionMakerVisitor.java:58) ~[jadx-core-0.6.1-dev.jar:na]
+	at jadx.core.dex.visitors.DepthTraversal.visit(DepthTraversal.java:31) [jadx-core-0.6.1-dev.jar:na]
+	at jadx.core.dex.visitors.DepthTraversal.visit(DepthTraversal.java:17) [jadx-core-0.6.1-dev.jar:na]
+	at jadx.core.ProcessClass.process(ProcessClass.java:37) [jadx-core-0.6.1-dev.jar:na]
+	at jadx.api.JadxDecompiler.processClass(JadxDecompiler.java:306) [jadx-core-0.6.1-dev.jar:na]
+	at jadx.api.JavaClass.decompile(JavaClass.java:62) [jadx-core-0.6.1-dev.jar:na]
+	at jadx.api.JadxDecompiler$1.run(JadxDecompiler.java:199) [jadx-core-0.6.1-dev.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_73]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_73]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_73]
+05:47:51 ERROR - JadxRuntimeException in pass: RegionMakerVisitor in method: com.sun.mail.imap.IMAPFolder.getNewMessageCount():int
+jadx.core.utils.exceptions.JadxRuntimeException: Exception block dominator not found, method:com.sun.mail.imap.IMAPFolder.getNewMessageCount():int. bs: [B:5:0x0008, B:36:0x0054]
+	at jadx.core.dex.visitors.regions.ProcessTryCatchRegions.searchTryCatchDominators(ProcessTryCatchRegions.java:86) ~[jadx-core-0.6.1-dev.jar:na]
+	at jadx.core.dex.visitors.regions.ProcessTryCatchRegions.process(ProcessTryCatchRegions.java:45) ~[jadx-core-0.6.1-dev.jar:na]
+	at jadx.core.dex.visitors.regions.RegionMakerVisitor.postProcessRegions(RegionMakerVisitor.java:63) ~[jadx-core-0.6.1-dev.jar:na]
+	at jadx.core.dex.visitors.regions.RegionMakerVisitor.visit(RegionMakerVisitor.java:58) ~[jadx-core-0.6.1-dev.jar:na]
+	at jadx.core.dex.visitors.DepthTraversal.visit(DepthTraversal.java:31) [jadx-core-0.6.1-dev.jar:na]
+	at jadx.core.dex.visitors.DepthTraversal.visit(DepthTraversal.java:17) [jadx-core-0.6.1-dev.jar:na]
+	at jadx.core.ProcessClass.process(ProcessClass.java:37) [jadx-core-0.6.1-dev.jar:na]
+	at jadx.api.JadxDecompiler.processClass(JadxDecompiler.java:306) [jadx-core-0.6.1-dev.jar:na]
+	at jadx.api.JavaClass.decompile(JavaClass.java:62) [jadx-core-0.6.1-dev.jar:na]
+	at jadx.api.JadxDecompiler$1.run(JadxDecompiler.java:199) [jadx-core-0.6.1-dev.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_73]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_73]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_73]
+05:47:51 WARN  - No exception handlers in catch block, method: com.sun.mail.imap.IMAPFolder.idle():void
+05:47:52 ERROR - Inconsistent code in method: com.sun.mail.imap.IMAPFolder.close(boolean, boolean):void
+05:47:52 ERROR - Inconsistent code in method: com.sun.mail.imap.IMAPFolder.idle():void
+05:47:52 WARN  - Several 'all' handlers in try/catch block in com.sun.mail.imap.IMAPFolder.open(int):void
+05:47:52 ERROR - Inconsistent code in method: com.sun.mail.imap.IMAPMessage.fetch(com.sun.mail.imap.IMAPFolder, javax.mail.Message[], javax.mail.FetchProfile):void
+05:47:52 ERROR - Inconsistent code in method: com.sun.mail.imap.IMAPStore.getNamespaces():com.sun.mail.imap.protocol.Namespaces
+05:47:52 ERROR - Inconsistent code in method: com.sun.mail.imap.IMAPStore.idle():void
+05:47:52 ERROR - Inconsistent code in method: com.sun.mail.imap.IMAPStore.isConnected():boolean
+05:47:52 ERROR - Inconsistent code in method: com.sun.mail.imap.IMAPStore.protocolConnect(java.lang.String, int, java.lang.String, java.lang.String):boolean
+05:47:53 ERROR - Inconsistent code in method: javax.mail.internet.InternetAddress.parse(java.lang.String, boolean, boolean):javax.mail.internet.InternetAddress[]
+05:47:53 WARN  - No exception handlers in catch block, method: com.sun.mail.imap.protocol.IMAPSaslAuthenticator.authenticate(java.lang.String[], java.lang.String, java.lang.String, java.lang.String, java.lang.String):boolean
+05:47:53 ERROR - Inconsistent code in method: com.sun.mail.imap.protocol.IMAPSaslAuthenticator.authenticate(java.lang.String[], java.lang.String, java.lang.String, java.lang.String, java.lang.String):boolean
+05:47:53 ERROR - Inconsistent code in method: com.sun.mail.pop3.POP3Message.loadHeaders():void
+05:47:53 ERROR - Inconsistent code in method: com.sun.mail.pop3.POP3Message.getContentStream():java.io.InputStream
+05:47:53 WARN  - Several 'all' handlers in try/catch block in com.sun.mail.pop3.Protocol.quit():boolean
+05:47:53 WARN  - Finally extract failed: remBlock pred: B:90:0x01e8, [B:89:0x01e7, B:145:0x028a], method: com.sun.mail.smtp.SMTPTransport.protocolConnect(java.lang.String, int, java.lang.String, java.lang.String):boolean
+05:47:53 WARN  - Finally extract failed: remBlock pred: B:51:0x00e3, [B:50:0x00de, B:49:0x00dc], method: com.sun.mail.smtp.SMTPTransport.sendMessage(javax.mail.Message, javax.mail.Address[]):void
+05:47:53 ERROR - JadxRuntimeException in pass: BlockFinish in method: com.sun.mail.smtp.SMTPTransport.protocolConnect(java.lang.String, int, java.lang.String, java.lang.String):boolean
+jadx.core.utils.exceptions.JadxRuntimeException: Can't find block by offset: 0x0281 in list []
+	at jadx.core.utils.BlockUtils.getBlockByOffset(BlockUtils.java:43) ~[jadx-core-0.6.1-dev.jar:na]
+	at jadx.core.dex.instructions.IfNode.initBlocks(IfNode.java:60) ~[jadx-core-0.6.1-dev.jar:na]
+	at jadx.core.dex.visitors.blocksmaker.BlockFinish.initBlocksInIfNodes(BlockFinish.java:48) ~[jadx-core-0.6.1-dev.jar:na]
+	at jadx.core.dex.visitors.blocksmaker.BlockFinish.visit(BlockFinish.java:33) ~[jadx-core-0.6.1-dev.jar:na]
+	at jadx.core.dex.visitors.DepthTraversal.visit(DepthTraversal.java:31) [jadx-core-0.6.1-dev.jar:na]
+	at jadx.core.dex.visitors.DepthTraversal.visit(DepthTraversal.java:17) [jadx-core-0.6.1-dev.jar:na]
+	at jadx.core.ProcessClass.process(ProcessClass.java:37) [jadx-core-0.6.1-dev.jar:na]
+	at jadx.api.JadxDecompiler.processClass(JadxDecompiler.java:306) [jadx-core-0.6.1-dev.jar:na]
+	at jadx.api.JavaClass.decompile(JavaClass.java:62) [jadx-core-0.6.1-dev.jar:na]
+	at jadx.api.JadxDecompiler$1.run(JadxDecompiler.java:199) [jadx-core-0.6.1-dev.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_73]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_73]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_73]
+05:47:53 ERROR - Inconsistent code in method: com.sun.mail.util.LineInputStream.readLine():java.lang.String
+05:47:54 ERROR - Inconsistent code in method: javax.activation.DataHandler.1.run():void
+05:47:54 WARN  - Unknown top splitter block from list: {B:34:0x0071=Splitter: B:34:0x0071, B:22:0x004f=Splitter: B:22:0x004f}
+05:47:54 ERROR - Failed to process nested try/catch in method: javax.activation.MailcapCommandMap.loadAllResources(java.util.List, java.lang.String):void
+05:47:54 ERROR - Failed to process nested try/catch in method: javax.activation.MailcapCommandMap.loadAllResources(java.util.List, java.lang.String):void
+05:47:54 ERROR - Inconsistent code in method: javax.activation.MailcapCommandMap.loadAllResources(java.util.List, java.lang.String):void
+05:47:54 WARN  - Unknown top splitter block from list: {B:34:0x0071=Splitter: B:34:0x0071, B:22:0x004f=Splitter: B:22:0x004f}
+05:47:54 ERROR - Failed to process nested try/catch in method: javax.activation.MimetypesFileTypeMap.loadAllResources(java.util.Vector, java.lang.String):void
+05:47:54 ERROR - Failed to process nested try/catch in method: javax.activation.MimetypesFileTypeMap.loadAllResources(java.util.Vector, java.lang.String):void
+05:47:54 ERROR - Failed to process nested try/catch in method: javax.activation.MimetypesFileTypeMap.loadAllResources(java.util.Vector, java.lang.String):void
+05:47:54 ERROR - Inconsistent code in method: javax.activation.MimetypesFileTypeMap.loadAllResources(java.util.Vector, java.lang.String):void
+05:47:54 ERROR - Inconsistent code in method: javax.mail.Session.loadAllResources(java.lang.String, java.lang.Class, javax.mail.StreamLoader):void
+05:47:54 ERROR - Can't fix incorrect switch cases order, method: javax.mail.internet.MailDateParser.parseMonth():int
+05:47:54 ERROR - Inconsistent code in method: javax.mail.internet.MailDateFormat.parseDate(char[], java.text.ParsePosition, boolean):java.util.Date
+05:47:54 ERROR - Inconsistent code in method: javax.mail.internet.MailDateParser.parseMonth():int
+05:47:54 ERROR - Inconsistent code in method: javax.mail.internet.MailDateParser.parseNumber():int
+05:47:54 ERROR - Inconsistent code in method: javax.mail.internet.ParameterList.<init>(java.lang.String):void
+05:47:54 WARN  - Finally extract failed: remBlock pred: B:6:0x000f, [B:5:0x000a, B:9:0x001b], method: javax.mail.util.SharedFileInputStream.close():void
+05:47:54 ERROR - Inconsistent code in method: javax.mail.util.SharedFileInputStream.skip(long):long
+05:47:55 ERROR - Inconsistent code in method: org.apache.harmony.awt.datatransfer.DTK.getDTK():org.apache.harmony.awt.datatransfer.DTK
+05:47:56 WARN  - Found 12 references to unknown classes
+05:47:56 ERROR - 38 errors occurred in following nodes:
+05:47:56 ERROR -   Method: com.sun.mail.imap.IMAPFolder.close(boolean, boolean):void
+05:47:56 ERROR -   Method: com.sun.mail.imap.IMAPFolder.getMessageCount():int
+05:47:56 ERROR -   Method: com.sun.mail.imap.IMAPFolder.getNewMessageCount():int
+05:47:56 ERROR -   Method: com.sun.mail.imap.IMAPFolder.idle():void
+05:47:56 ERROR -   Method: com.sun.mail.imap.IMAPMessage.fetch(com.sun.mail.imap.IMAPFolder, javax.mail.Message[], javax.mail.FetchProfile):void
+05:47:56 ERROR -   Method: com.sun.mail.imap.IMAPStore.getNamespaces():com.sun.mail.imap.protocol.Namespaces
+05:47:56 ERROR -   Method: com.sun.mail.imap.IMAPStore.idle():void
+05:47:56 ERROR -   Method: com.sun.mail.imap.IMAPStore.isConnected():boolean
+05:47:56 ERROR -   Method: com.sun.mail.imap.IMAPStore.protocolConnect(java.lang.String, int, java.lang.String, java.lang.String):boolean
+05:47:56 ERROR -   Method: com.sun.mail.imap.protocol.IMAPSaslAuthenticator.authenticate(java.lang.String[], java.lang.String, java.lang.String, java.lang.String, java.lang.String):boolean
+05:47:56 ERROR -   Method: com.sun.mail.pop3.POP3Message.getContentStream():java.io.InputStream
+05:47:56 ERROR -   Method: com.sun.mail.pop3.POP3Message.loadHeaders():void
+05:47:56 ERROR -   Method: com.sun.mail.smtp.SMTPTransport.protocolConnect(java.lang.String, int, java.lang.String, java.lang.String):boolean
+05:47:56 ERROR -   Method: com.sun.mail.util.LineInputStream.readLine():java.lang.String
+05:47:56 ERROR -   Method: javax.activation.DataHandler.1.run():void
+05:47:56 ERROR -   Method: javax.activation.MailcapCommandMap.loadAllResources(java.util.List, java.lang.String):void
+05:47:56 ERROR -   Method: javax.activation.MimetypesFileTypeMap.loadAllResources(java.util.Vector, java.lang.String):void
+05:47:56 ERROR -   Method: javax.mail.EventQueue.run():void
+05:47:56 ERROR -   Method: javax.mail.Session.loadAllResources(java.lang.String, java.lang.Class, javax.mail.StreamLoader):void
+05:47:56 ERROR -   Method: javax.mail.internet.InternetAddress.parse(java.lang.String, boolean, boolean):javax.mail.internet.InternetAddress[]
+05:47:56 ERROR -   Method: javax.mail.internet.MailDateFormat.parseDate(char[], java.text.ParsePosition, boolean):java.util.Date
+05:47:56 ERROR -   Method: javax.mail.internet.MailDateParser.parseMonth():int
+05:47:56 ERROR -   Method: javax.mail.internet.MailDateParser.parseNumber():int
+05:47:56 ERROR -   Method: javax.mail.internet.MimeMultipart.parse():void
+05:47:56 ERROR -   Method: javax.mail.internet.MimeMultipart.parsebm():void
+05:47:56 ERROR -   Method: javax.mail.internet.ParameterList.<init>(java.lang.String):void
+05:47:56 ERROR -   Method: javax.mail.util.SharedFileInputStream.skip(long):long
+05:47:56 ERROR -   Method: org.apache.harmony.awt.datatransfer.DTK.getDTK():org.apache.harmony.awt.datatransfer.DTK
+05:47:56 ERROR - finished with errors
